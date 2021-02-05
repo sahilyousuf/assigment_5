@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="paramiter()">click to see number</button>
+    <br />
+    <button onclick="paseint()">click to see***</button>
+    <script>
+      function paramiter() {
+        for (var i = 5; i >= 1; i--) {
+          for (var k = 1; k <= i; k++) {
+            document.write("" + k + "");
+          }
+          document.write("</br>");
+        }
+      }
+    </script>
+
+    <script>
+      function paseint() {
+        for (var i = 5; i >= 1; i--) {
+          for (var k = 1; k <= i; k++) {
+            document.write("" + "*" + "");
+          }
+          document.write("</br>");
+        }
+      }
+    </script>
+  </body>
+</html>

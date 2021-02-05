@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>count string occurrence in a string</title>
+  </head>
+
+  <body>
+    <button onclick="checkThe()"></button>
+    <script>
+      function checkThe() {
+        var a = "the quick brown fox jump on the lazy dog";
+        var b = a.split(" ");
+        var c = 0;
+        for (var i = 0; i < b.length; i++) {
+          if (b[i] == "the") {
+            c++;
+          }
+        }
+      }
+      document.write(c);
+    </script>
+  </body>
+</html>

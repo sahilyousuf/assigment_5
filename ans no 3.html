@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="filter()">click here to filter student names</button>
+    <script>
+      function filter() {
+        var studentNames = ["hassan", "salman", "Kamran", "rashid", "noor"];
+        var result = studentNames.filter(function studentNames(sNames) {
+          return sNames.includes("an");
+        });
+        document.write(result);
+      }
+    </script>
+  </body>
+</html>

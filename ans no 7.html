@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="main()">click here</button>
+
+    <script>
+      function main() {
+        function note(para) {
+          return document.write(typeof para);
+        }
+        note("sahil");
+
+        document.write("<br>");
+
+        function note(para) {
+          return document.write(typeof para);
+        }
+        note(1);
+
+        document.write("<br>");
+
+        function note(para) {
+          return document.write(typeof para);
+        }
+        note(false);
+
+        document.write("<br>");
+
+        function note(para) {
+          return document.write(typeof para);
+        }
+        note({});
+      }
+    </script>
+  </body>
+</html>

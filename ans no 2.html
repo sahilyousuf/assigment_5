@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <button onclick="checkPalindrome(a)">madam</button>
+    <script>
+      a = "madam";
+      function checkPalindrome(word) {
+        var wordArray = word.split(""); //convert string in the array.split is the string prototype
+        var reverseArray = wordArray.reverse();
+        var newWord = reverseArray.join("");
+        if (word == newWord) return alert("it is");
+        return alert("No it is not");
+      }
+    </script>
+  </body>
+</html>
